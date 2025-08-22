@@ -15,6 +15,8 @@ function Register() {
     setErrors({})
     setSuccess('')
 
+
+    
     try {
       const response = await axios.post('http://localhost:8000/auth/register/', {
         username,
